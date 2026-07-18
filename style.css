@@ -91,7 +91,7 @@
   }
   .brand{
     display:flex;
-    align-items:baseline;
+    align-items:center;
     gap:10px;
     font-family:var(--font-display);
     font-weight:700;
@@ -99,6 +99,20 @@
     letter-spacing:0.02em;
   }
   .brand .dot{color:var(--signal);}
+  .brand-mark{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:32px;
+    height:32px;
+    border-radius:50%;
+    background:var(--paper);
+    box-shadow:0 0 0 1px var(--line);
+    flex:none;
+  }
+  .brand-mark img{display:block;width:22px;height:22px;}
+  .brand-mark-sm{width:24px;height:24px;}
+  .brand-mark-sm img{width:16px;height:16px;}
   .brand small{
     font-family:var(--font-display);
     font-weight:500;
@@ -473,6 +487,9 @@
     gap:16px;
   }
   .footer-brand{
+    display:flex;
+    align-items:center;
+    gap:10px;
     font-family:var(--font-display);
     font-size:13px;
     color:var(--muted);

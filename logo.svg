@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Orbiton logo">
+  <mask id="orbiton-crescent-mask">
+    <rect width="200" height="200" fill="#fff"/>
+    <circle cx="100" cy="66" r="70" fill="#000"/>
+  </mask>
+  <circle cx="100" cy="100" r="84" fill="none" stroke="#0d0d0f" stroke-width="15"
+    stroke-dasharray="502 26" stroke-linecap="round"
+    transform="rotate(-124 100 100)"/>
+  <circle cx="100" cy="124" r="72" fill="#2e2a78" mask="url(#orbiton-crescent-mask)"/>
+  <circle cx="49" cy="45" r="15" fill="#2e2a78"/>
+</svg>
